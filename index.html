@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サンプルページ</title>
+    <style>
+        body{ text-align: center;}
+        h1 { color: blue;}
+        ol{ color: blueviolet;}
+        ul{ color: darkgreen;}
+        li{ list-style-position: inside;}
+        .table1 {
+            width: 50%;
+            /* テーブルを中央に */
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="top">サンプルページ</h1>
+    <hr>
+    <div>
+        <p>aaaaaaaaa</p>    
+    </div>
+    <p>この行内の<span>「この部分」</span>はspan領域です</p>
+
+    <ul>
+        <li>A</li>
+        <li>B</li>
+    </ul>
+
+    <ol>
+        <li>a</li>
+        <li>b</li>
+    </ol>
+
+    <p>行・列の連結</p>
+    <table border="1" class="table1">
+        <tr>
+            <td colspan="2">年間売り上げ</td>
+            <td rowspan="2">合計</td>
+        </tr>
+        <tr>
+            <td>前期</td>
+            <td>後期</td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+    </table>
+    <br>
+
+    <p>別ウィンドウで開く：<a href="https://www.yahoo.co.jp/" target="_blank">Yahoo Japan</a></p>
+    <p>ページの置き換え：<a href="https://www.yahoo.co.jp/">Yahoo Japan</a></p><br>
+
+    <!-- aタグ利用 ページ内移動-->
+    <a href="#top">ページTOPへ戻る</a>
+</body>
+
+</html>
