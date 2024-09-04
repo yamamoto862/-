@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サンプルページ</title>
+    <meta name="Sample" content="Sample text text text">
+    <!-- Sanitize CSS -->
+    <link rel="stylesheet" href="./sanitize.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 id="top"><a href="index.html">サンプルページ</a></h1>
+    <img src="image.png" alt="くま" width="200">
+    <hr>
+    <div>
+        <p>テストで作っています</p>
+    </div>
+    <p>この行内の<span>「この部分」</span>はspan領域です</p>
+
+    <ul>
+        <li>A</li>
+        <li>B</li>
+    </ul>
+
+    <ol>
+        <li>a</li>
+        <li>b</li>
+    </ol>
+
+    <p>行・列の連結</p>
+    <table border="1" class="table1">
+        <tr>
+            <td colspan="2">年間売り上げ</td>
+            <td rowspan="2">合計</td>
+        </tr>
+        <tr>
+            <td>前期</td>
+            <td>後期</td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+    </table>
+    <br>
+
+    <table border="1" class="table1">
+        <thead>
+            <tr>
+                <th colspan="2">年間売り上げ</th>
+                <th>合計</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>前期</td>
+                <td>後期</td>
+            </tr>
+            <tr>
+                <td>100</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <div>
+        <label for="name">名前</label>
+        <input type="text" id="name">
+    </div>
+    <div>
+        <label for="registered">登録済み</label>
+        <input type="checkbox" id="registered">
+    </div>
+    <label for="sentaku">選択制</label>
+    <select id="sentaku">
+        <option>A</option>
+        <option>B</option>
+        <option>C</option>
+    </select>
+    <div>
+        <input type="button" value="送信">
+    </div>
+    <br>
+
+    <!-- 画面の大きさによる -->
+    <div class="sam">
+        PC:緑、SP:オレンジ、Tablet:紫
+    </div>
+
+    <p>別ウィンドウで開く：<a href="https://www.yahoo.co.jp/" target="_blank">Yahoo Japan</a></p>
+    <p>ページの置き換え：<a href="https://www.yahoo.co.jp/">Yahoo Japan</a></p><br>
+
+    <!-- aタグ利用 ページ内移動-->
+    <a href="#top"><img src="back.png" alt="戻る"></a>
+</body>
+
+</html>

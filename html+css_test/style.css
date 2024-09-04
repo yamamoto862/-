@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body{ text-align: center;}
+
+h1.top { color: rgba(25, 25, 149, 0.628);}
+
+ol{ color: blueviolet;}
+
+ul{ color: darkgreen;}
+
+li{ list-style-position: inside;}
+
+.table1 {
+        width: 50%;
+        /* テーブルを中央に */
+        margin: 0 auto;
+}
+
+.table1 > thead{
+    color: blueviolet;
+}
+
+/* PC */
+.sam {
+    background-color: aquamarine;
+}
+
+/* SP */
+@media screen and (max-width: 768px){
+    .sam {
+        background-color: burlywood;
+    }
+}
+
+/* Tablet */
+@media screen and ( max-width:768px) and ( max-width: 690px){
+    .sam {
+        background-color: darkorchid;
+    }
+}
+
+a:hover {
+    color: red;
+}

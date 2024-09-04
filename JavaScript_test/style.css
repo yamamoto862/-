@@ -1,0 +1,22 @@
+@charset "uft-8";
+
+.accorduin {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.accordion-tigger {
+    margin: 0;
+    padding: 10px;
+    display: block;
+    background-color: #333;
+    color: #FFF;
+    border-top: 1px sokid #fff; 
+}
+
+.accordion-contents {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid "ccc";
+    display: none;
+}
